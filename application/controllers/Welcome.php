@@ -6,7 +6,23 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		// $this->load->view('welcome_message');
-		$this->load->view('invitation', FALSE);
+		$data['data'] = $this->db->get('ucapan')->result();
+		$this->load->view('invitation', $data, FALSE);
+	}
+
+	public function postPesan()
+	{
+		$this->db->query('CREATE TABLE IF NOT EXISTS ucapan (id INTEGER PRIMARY KEY AUTOINCREMENT, nama VARCHAR NOT NULL, pesan VARCHAR NOT NULL)');
+		$nama = htmlspecialchars($this->input->post('nama'));
+		$pesan = htmlspecialchars($this->input->post('pesan'));
+		$data = array(
+			'nama' => $nama,
+			'pesan' => $pesan
+		);
+		if (!empty($data)) {
+			$this->db->insert('ucapan', $data);
+		}
+
+		redirect('welcome', 'refresh');
 	}
 }

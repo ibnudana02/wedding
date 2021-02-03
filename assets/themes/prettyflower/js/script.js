@@ -179,13 +179,12 @@
 
         var nama = $('#nama').val();
         var komentar = $('#komentar').val();
-
         $.ajax({
-            url: base_url + '/add_komentar',
+            url: base_url + '/postPesan',
             method: "POST",
             data: {
                 nama: nama,
-                komentar: komentar
+                pesan: komentar
             },
             async: true,
             dataType: 'html',

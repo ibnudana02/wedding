@@ -194,69 +194,34 @@
                 <div class="section-title">
                     <h2>Beri Ucapan</h2>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="form-group">
-                            <input id="nama" type="text" class="form-control mt-2" placeholder="Nama Anda" value="" required>
+                <form action="<?= base_url('welcome/postPesan') ?>" method="post">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea id="komentar" class="form-control" name="pesan" placeholder="Pesan anda.." rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button id="submitKomen1" type="submit" class="btn btn-primary btn-block">Kirim</button>
+                            <img src="http://undangancnk.online/assets/base/img/loadinga.svg" height="30px" style="display:none;" id="loading_">
                         </div>
                     </div>
-                    <div class="col-12">
-                        <div class="form-group">
-                            <textarea id="komentar" class="form-control" id="exampleFormControlTextarea1" placeholder="Pesan anda.." rows="3" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <button id="submitKomen" class="btn btn-primary btn-block">Kirim</button>
-                        <img src="http://undangancnk.online/assets/base/img/loadinga.svg" height="30px" style="display:none;" id="loading_">
-                    </div>
-                </div>
+                </form>
             </div>
             <div class="komen-netizen">
-
                 <div class="layout-komen">
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Aninda Safira </div>
-                        <div class="col-12 komen-isi">
-                            Alhamdulilah, selamat atas pernikahan kalian. Semoga pernikahan kalian dilimpahi oleh cinta, kebaikan dan kebahagiaan. Jazakallahu khairan khatira.. 😊😊😇 </div>
-                    </div>
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Raisa Andriana </div>
-                        <div class="col-12 komen-isi">
-                            Selamat menikah sahabatku, ‘Barakallahu lakum wa baraka alaikum’ </div>
-                    </div>
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Anisa Rahma </div>
-                        <div class="col-12 komen-isi">
-                            Alhamdulillah.. Selamat ya. Semoga Allah Swt selalu melimpahkan rahmatNya untuk pernikahan kalian. </div>
-                    </div>
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Maudy Ayunda </div>
-                        <div class="col-12 komen-isi">
-                            MasyaAllah.. Selamat buat kalian berdua 🥰😘 Barakallah </div>
-                    </div>
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Citra Kirana </div>
-                        <div class="col-12 komen-isi">
-                            Baarakallahu laka wa baaraka ‘alaika wa jama’a bainakumaa fii khaiir.
-
-                            Semoga Allah memberikan keberkahan untukmu dan atasmu, serta semoga Dia mengumpulkan di antara kalian berdua dalam kebaikan.
-
-                            🤲🤲🤗🤗 </div>
-                    </div>
-                    <div class="komen">
-                        <div class="col-12 komen-nama">
-                            Nissya Sabyan </div>
-                        <div class="col-12 komen-isi">
-                            Semoga pernikahan kalian langgeng dan selalu dinaungi petunjuk Allah dalam setiap langkah.. Aamiin 😘😘 </div>
-                    </div>
-
+                    <?php foreach ($data as $value) : ?>
+                        <div class='komen' style='display:block'>
+                            <div class='col-12 komen-nama'><?= ucwords($value->nama) ?></div>
+                            <div class='col-12 komen-isi'><?= ucfirst($value->pesan) ?></div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
-
                 <a href="#" id="loadMore" class="btn btn-primary btn-block" role="button">Lebih Banyak.</a>
             </div>
 
@@ -333,6 +298,7 @@
 <div class="dekorasi-sampul dekorasi-sampul-bawah">
 
     <script>
+        var base_url = '<?= base_url('welcome') ?>';
         var tanggal_akad = '2021/02/19';
     </script>
     <script>
