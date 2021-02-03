@@ -100,13 +100,13 @@
 
             <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/groom.png" class="mempelai-img" />
 
-            <h1 class="mempelai-pria-nama">Muhammad Ibnu Wardana</h1>
+            <h1 class="mempelai-pria-nama">Muhammad Ibnu Wardana, S.Kom</h1>
             <p class="mempelai-pria-ortu">Putra Amir dan Sri Wartini</p>
             <h1 class="dengan">dengan</h1>
 
             <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img" />
 
-            <h1 class="mempelai-wanita-nama">Gusti Vera Hutriani</h1>
+            <h1 class="mempelai-wanita-nama">Gusti Vera Hutriani, S.Pd</h1>
             <p class="mempelai-wanita-ortu">Putri Hanafi dan Waslati (Alm)</p>
 
         </div>
@@ -285,7 +285,6 @@
 
                     <div class="mobile-bottom-nav__item mobile-bottom-nav__item--active" id="sampul">
                         <div class="mobile-bottom-nav__item-content">
-                            <!-- <i class="navbar-icon mdi mdi-home"></i> -->
                             <i class="navbar-icon fas fa-home"></i>
                             Sampul
                         </div>
@@ -293,7 +292,6 @@
 
                     <div class="mobile-bottom-nav__item" id="mempelai">
                         <div class="mobile-bottom-nav__item-content">
-                            <!-- <i class="navbar-icon mdi mdi-heart"></i> -->
                             <i class="navbar-icon fas fa-heart"></i>
                             Mempelai
                         </div>
@@ -301,7 +299,6 @@
 
                     <div class="mobile-bottom-nav__item" id="acara">
                         <div class="mobile-bottom-nav__item-content">
-                            <!-- <i class="navbar-icon mdi mdi-calendar-text"></i> -->
                             <i class="navbar-icon fas fa-calendar-alt"></i>
                             Acara
                         </div>
@@ -309,7 +306,6 @@
 
                     <div class="mobile-bottom-nav__item" id="lokasi">
                         <div class="mobile-bottom-nav__item-content">
-                            <!-- <i class="navbar-icon mdi mdi-map-marker"></i> -->
                             <i class="navbar-icon fas fa-map-marker-alt"></i>
                             Lokasi
                         </div>
@@ -317,7 +313,6 @@
 
                     <div class="mobile-bottom-nav__item" id="ucapan">
                         <div class="mobile-bottom-nav__item-content">
-                            <!-- <i class="navbar-icon mdi mdi-message-bulleted"></i> -->
                             <i class="navbar-icon fas fa-comment-dots"></i>
                             Ucapan
                         </div>
@@ -331,42 +326,30 @@
 </body>
 
 <div class="dekorasi-all dekorasi-all-bawah">
-    <!-- GAMBAR DEKORASI TENGAH -->
-    <!-- <img class="imgbawah" src="http://undangancnk.online/assets/themes/prettyflower/img/bottom_flower.png" >  -->
-    <!-- GAMBAR DEKORASI KIRI -->
-    <!-- <img class="imgbawah-kanan" src="http://undangancnk.online/assets/themes/prettyflower/img/kanan-bawah.png" >  -->
-    <!-- GAMBAR DEKORASI KIRI -->
     <img class="imgbawah-kiri" src="<?= base_url() ?>assets/themes/prettyflower/img/kiri-bawah.png">
 </div>
 
 <div class="dekorasi-sampul dekorasi-sampul-bawah">
-    <!-- GAMBAR DEKORASI TENGAH -->
-    <!-- <img class="imgbawah" src="http://undangancnk.online/assets/themes/prettyflower/img/bottom_flower.png"> -->
-    <!-- GAMBAR DEKORASI KIRI -->
-    <!-- <img class="imgbawah-kanan" src="http://undangancnk.online/assets/themes/prettyflower/img/kanan-bawah.png"> -->
-    <!-- GAMBAR DEKORASI KIRI -->
-    <!-- <img class="imgbawah-kiri" src="http://undangancnk.online/assets/themes/prettyflower/img/kiri-bawah.png" > -->
-</div>
 
 
 
-<!-- mengirimkan data php ke javascript -->
-<script>
-    // var base_url = 'http://undangancnk.online/';
-</script>
-<script>
-    var tanggal_akad = '2021/02/19';
-</script>
-<script>
-    var tanggal_resepsi = '2021/02/27';
-</script>
-<!-- mengirimkan data php ke javascript -->
+    <!-- mengirimkan data php ke javascript -->
+    <script>
+        // var base_url = 'http://undangancnk.online/';
+    </script>
+    <script>
+        var tanggal_akad = '2021/02/19';
+    </script>
+    <script>
+        var tanggal_resepsi = '2021/02/27';
+    </script>
+    <!-- mengirimkan data php ke javascript -->
 
-<!-- JS AREA -->
-<script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
-<script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
-<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
-<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
-<script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
+    <!-- JS AREA -->
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
 
 </html>
