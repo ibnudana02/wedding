@@ -187,18 +187,19 @@
                 pesan: komentar
             },
             async: true,
-            dataType: 'html',
+            dataType: 'JSON',
             success: function (hasil) {
-                var json = JSON.parse(hasil);
+                console.log(JSON.stringify(hasil.data));
+                var json = hasil;
                 var status = json.status;
                 var nama = json.nama;
-                var komentar = json.komentar;
-                console.log(json);
+                var komentar = json.pesan;
 
                 if (status == 'sukses') {
 
                     $('.layout-komen').append("<div class='komen' style='display:block'><div class='col-12 komen-nama'>" + nama + "</div><div class='col-12 komen-isi'>" + komentar + "</div></div>");
-
+                    $('#nama').val('');
+                    $('#komentar').val('');
                     $(".komen:hidden").slice(0, 100).slideDown();
                     $("html, body").animate({
                         scrollTop: $(document).height()
@@ -207,7 +208,7 @@
 
                     $('#loading_').css('display', 'none');
                     $('#submitKomen').css('display', 'block');
-                    $('#submitKomen').prop('disabled', true);
+                    // $('#submitKomen').prop('disabled', true);
                 }
 
             }

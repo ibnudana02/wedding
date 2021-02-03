@@ -194,24 +194,24 @@
                 <div class="section-title">
                     <h2>Beri Ucapan</h2>
                 </div>
-                <form action="<?= base_url('welcome/postPesan') ?>" method="post">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="form-group">
-                                <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <textarea id="komentar" class="form-control" name="pesan" placeholder="Pesan anda.." rows="3" required></textarea>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button id="submitKomen1" type="submit" class="btn btn-primary btn-block">Kirim</button>
-                            <img src="http://undangancnk.online/assets/base/img/loadinga.svg" height="30px" style="display:none;" id="loading_">
+                <!-- <form action="<?= base_url('welcome/postPesan') ?>" method="post"> -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
                         </div>
                     </div>
-                </form>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea id="komentar" class="form-control" name="pesan" placeholder="Pesan anda.." rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button id="submitKomen" type="submit" class="btn btn-primary btn-block">Kirim</button>
+                        <img src="<?= base_url() ?>assets/base/img/tail-spin.svg" height="30px" style="display:none;" id="loading_">
+                    </div>
+                </div>
+                <!-- </form> -->
             </div>
             <div class="komen-netizen">
                 <div class="layout-komen">
@@ -300,12 +300,8 @@
     <script>
         var base_url = '<?= base_url('welcome') ?>';
         var tanggal_akad = '2021/02/19';
-    </script>
-    <script>
         var tanggal_resepsi = '2021/02/27';
     </script>
-    <!-- mengirimkan data php ke javascript -->
-
     <!-- JS AREA -->
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
@@ -315,6 +311,10 @@
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/wow.min.js"></script>
     <script>
         new WOW().init();
+        $(document).ready(function() {
+            $('#nama').val('');
+            $('#komentar').val('');
+        })
     </script>
 
 </html>
