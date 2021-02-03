@@ -24,7 +24,8 @@
     <link href="<?= base_url() ?>assets/themes/prettyflower/css/jquery.fancybox.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/css/style.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/css/all.css">
-
+    <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/css/animate.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/mdi/css/materialdesignicons.css">
 
 </head>
 
@@ -36,8 +37,8 @@
             <img src="<?= base_url() ?>assets/base/img/logo2.png" style="width:100px;height: 100px;"> <br>
         </div>
 
-        <div class="salam">
-            <a style="font-weight: bold;font-size: 30px;color: #2f3640;">Hello!</a><br>
+        <div class="salam wow zoomIn" data-wow-duration="0" data-wow-delay="0s">
+            <a style=" font-weight: bold;font-size: 30px;color: #2f3640;">Hello!</a><br>
             <a style="font-weight: normal;font-size:18px;"></a><br>
             <a style="font-weight: normal;font-size:18px;color: #2f3640;font-family: sans-serif;">You are invited to our wedding party!</a>
         </div>
@@ -63,7 +64,7 @@
                 <tbody>
                     <tr>
                         <th style="text-align: center;">
-                            <span class="the-wedding">- THE WEDDING OF -</span>
+                            <span class="the-wedding wow fadeIn" data-wow-duration="0" data-wow-delay="0.2s">- THE WEDDING OF -</span>
                         </th>
                     </tr>
                     <tr>
@@ -79,11 +80,11 @@
                     </tr>
                     <tr>
                         <th style="text-align: center;margin-top:60px;margin-bottom:15px;display: block;">
-                            <span class="nama-mempelai">Ibnu & Vera</span>
+                            <span class="nama-mempelai wow zoomInUp" data-wow-duration="0.3" data-wow-delay="0.6s">Ibnu & Vera</span>
                         </th>
                     </tr>
                     <tr>
-                        <th style="text-align: center;">
+                        <th style=" text-align: center;" class="wow bounce" data-wow-duration="0.1" data-wow-delay="1s">
                             <span class="tanggal-weddingnya"></span>
                         </th>
                     </tr>
@@ -94,20 +95,20 @@
         <!-- ============== MEMPELAI =============== -->
         <div id="mempelai-konten" class="konten" style="display: none;">
             <img src="<?= base_url() ?>assets/base/img/bismillah.png" class="mempelai-salam-pembuka" /><br>
-            <p class="mempelai-intermezzo">Assalamu'alaikum warahmatullahi wabarakatuh
+            <p class="mempelai-intermezzo wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Assalamu'alaikum warahmatullahi wabarakatuh
 
                 Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra-Putri kami :</p>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/groom.png" class="mempelai-img" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/ibnu.jpg" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
 
-            <h1 class="mempelai-pria-nama">Muhammad Ibnu Wardana, S.Kom</h1>
-            <p class="mempelai-pria-ortu">Putra Amir dan Sri Wartini</p>
-            <h1 class="dengan">dengan</h1>
+            <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Muhammad Ibnu Wardana, S.Kom</h1>
+            <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putra Amir dan Sri Wartini</p>
+            <h1 class="dengan wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">dengan</h1>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
 
-            <h1 class="mempelai-wanita-nama">Gusti Vera Hutriani, S.Pd</h1>
-            <p class="mempelai-wanita-ortu">Putri Hanafi dan Waslati (Alm)</p>
+            <h1 class="mempelai-wanita-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Gusti Vera Hutriani, S.Pd</h1>
+            <p class="mempelai-wanita-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putri Hanafi dan Waslati (Alm)</p>
 
         </div>
 
@@ -128,21 +129,21 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-calendar icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-calendar-heart icon-acara"></th>
                             <th class="tb-ket-acara"> Tanggal</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara" id="tanggal-acara-akad">2021/02/19</th>
                         </tr>
 
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-timer icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-clock-time-eight-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Jam</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara">09.00 Pagi</th>
                         </tr>
 
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-map-marker icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-map-marker-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Tempat</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara">Kediaman Mempelai Wanita<br>Jl. Medan Merdeka Utara No.3 RT.02/RW.03. Gambir, Jakarta Pusat.</th>
@@ -160,21 +161,21 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-calendar icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-calendar-heart icon-acara"></th>
                             <th class="tb-ket-acara"> Tanggal</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara " id="tanggal-acara-resepsi">2021/02/27</th>
                         </tr>
 
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-timer icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-clock-time-eight-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Jam</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara">10.00 Pagi</th>
                         </tr>
 
                         <tr>
-                            <th class="tb-ic-acara"><i class="mdi mdi-map-marker icon-acara"></th>
+                            <th class="tb-ic-acara"><i class="mdi mdi-map-marker-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Tempat</th>
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara">Kediaman Mempelai Pria<br>Jl. Sukajadi I Gg. Lele No. 20, Duri - Riau.</th>
@@ -331,12 +332,6 @@
 
 <div class="dekorasi-sampul dekorasi-sampul-bawah">
 
-
-
-    <!-- mengirimkan data php ke javascript -->
-    <script>
-        // var base_url = 'http://undangancnk.online/';
-    </script>
     <script>
         var tanggal_akad = '2021/02/19';
     </script>
@@ -351,5 +346,9 @@
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
     <script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
+    <script src="<?= base_url() ?>assets/themes/prettyflower/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </html>
