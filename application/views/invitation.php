@@ -19,11 +19,11 @@
     <meta property="og:type" content="website" />
 
     <!-- CSS STYLE AREA	 -->
-    <link rel="icon" href="<?= base_url() ?>/assets/base/img/icon.png">
-    <link href="<?= base_url() ?>/assets/themes/prettyflower/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= base_url() ?>/assets/themes/prettyflower/css/jquery.fancybox.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/themes/prettyflower/css/style.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/themes/prettyflower/css/all.css">
+    <link rel="icon" href="<?= base_url() ?>assets/base/img/icon.png">
+    <link href="<?= base_url() ?>assets/themes/prettyflower/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/themes/prettyflower/css/jquery.fancybox.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/themes/prettyflower/css/all.css">
 
 
 </head>
@@ -33,7 +33,7 @@
     <!-- ============== HALAMAN AWAL =============== -->
     <div class="thebegining">
         <div class="content-thebegining">
-            <img src="<?= base_url() ?>/assets/base/img/logo2.png" style="width:100px;height: 100px;"> <br>
+            <img src="<?= base_url() ?>assets/base/img/logo2.png" style="width:100px;height: 100px;"> <br>
         </div>
 
         <div class="salam">
@@ -45,7 +45,7 @@
     </div>
 
     <div class="dekorasi-all">
-        <img src="<?= base_url() ?>/assets/themes/prettyflower/img/kanan-atas.png" class="imgatas-kanan">
+        <img src="<?= base_url() ?>assets/themes/prettyflower/img/kanan-atas.png" class="imgatas-kanan">
     </div>
 
     <div class="dekorasi-sampul">
@@ -55,7 +55,7 @@
 
 
         <!-- ============== MUSIK =============== -->
-        <audio loop src="<?= base_url() ?>/assets/audio/audio.mp3" id="audio"></audio>
+        <audio loop src="<?= base_url() ?>assets/audio/audio.mp3" id="audio"></audio>
 
         <!-- ============== SAMPUL =============== -->
         <div id="sampul-konten" class="konten">
@@ -71,10 +71,10 @@
 
 
                             <!-- image border cover -->
-                            <img src="<?= base_url() ?>/assets/themes/prettyflower/img/bg-flower.png" class="cover-border" /><br>
+                            <img src="<?= base_url() ?>assets/themes/prettyflower/img/bg-flower.png" class="cover-border" /><br>
                             <!-- image border cover -->
 
-                            <img src="<?= base_url() ?>/assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/kita.png" class="cover-foto" />
+                            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/kita.png" class="cover-foto" />
                         </th>
                     </tr>
                     <tr>
@@ -93,18 +93,18 @@
 
         <!-- ============== MEMPELAI =============== -->
         <div id="mempelai-konten" class="konten" style="display: none;">
-            <img src="<?= base_url() ?>/assets/base/img/bismillah.png" class="mempelai-salam-pembuka" /><br>
+            <img src="<?= base_url() ?>assets/base/img/bismillah.png" class="mempelai-salam-pembuka" /><br>
             <p class="mempelai-intermezzo">Assalamu'alaikum warahmatullahi wabarakatuh
 
                 Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra-Putri kami :</p>
 
-            <img src="<?= base_url() ?>/assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/groom.png" class="mempelai-img" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/groom.png" class="mempelai-img" />
 
             <h1 class="mempelai-pria-nama">Muhammad Ibnu Wardana</h1>
             <p class="mempelai-pria-ortu">Putra Amir dan Sri Wartini</p>
             <h1 class="dengan">dengan</h1>
 
-            <img src="<?= base_url() ?>/assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img" />
 
             <h1 class="mempelai-wanita-nama">Gusti Vera Hutriani</h1>
             <p class="mempelai-wanita-ortu">Putri Hanafi dan Waslati (Alm)</p>
@@ -336,7 +336,7 @@
     <!-- GAMBAR DEKORASI KIRI -->
     <!-- <img class="imgbawah-kanan" src="http://undangancnk.online/assets/themes/prettyflower/img/kanan-bawah.png" >  -->
     <!-- GAMBAR DEKORASI KIRI -->
-    <img class="imgbawah-kiri" src="<?= base_url() ?>/assets/themes/prettyflower/img/kiri-bawah.png">
+    <img class="imgbawah-kiri" src="<?= base_url() ?>assets/themes/prettyflower/img/kiri-bawah.png">
 </div>
 
 <div class="dekorasi-sampul dekorasi-sampul-bawah">
@@ -363,10 +363,10 @@
 <!-- mengirimkan data php ke javascript -->
 
 <!-- JS AREA -->
-<script src="<?= base_url() ?>/assets/themes/prettyflower/js/moment-with-locales.js"></script>
-<script src="<?= base_url() ?>/assets/themes/prettyflower/js/bootstrap.min.js"></script>
-<script src="<?= base_url() ?>/assets/themes/prettyflower/js/jquery.min.js"></script>
-<script src="<?= base_url() ?>/assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
-<script src="<?= base_url() ?>/assets/themes/prettyflower/js/script.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
 
 </html>
