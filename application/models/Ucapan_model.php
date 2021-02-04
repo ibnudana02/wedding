@@ -22,7 +22,7 @@ class Ucapan_model extends CI_Model
     }
     public function read()
     {
-        return $this->db->get($this->_table, 5, 0);
+        return $this->db->get($this->_table, 3, 0);
     }
 }
 

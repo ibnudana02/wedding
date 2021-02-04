@@ -70,7 +70,7 @@
                             <!-- image border cover -->
                             <img src="<?= base_url() ?>assets/themes/prettyflower/img/bg-flower.png" class="cover-border" /><br>
                             <!-- image border cover -->
-                            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture12.png" class="cover-foto" />
+                            <img src="<?= base_url() ?>assets/img/pich.png" class="cover-foto" />
                         </th>
                     </tr>
                     <tr>
