@@ -14,7 +14,7 @@
     <meta property="og:title" content="Ibnu & Vera">
     <meta property="og:description" content="Hai! Kamu Di Undang..">
     <meta property="og:url" content="<?= base_url() ?>">
-    <meta property="og:image" content="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/ibnu.jpg">
+    <meta property="og:image" content="<?= base_url() ?>assets/img/pich.png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <meta property="og:type" content="website" />
