@@ -459,15 +459,20 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 800px;
+  max-width: 600px;
+  /* max-height: 300px; */
   padding: 10px;
+}
+
+.btn-rute {
+  margin: 15px 0;
 }
 
 @media (max-width: 575.98px) {
 
   .maps iframe {
     width: 100%;
-    height: 350px;
+    height: 180px;
   }
 }
 
@@ -476,7 +481,7 @@ h6 {
 
   .maps iframe {
     width: 100%;
-    height: 350px;
+    height: 200px;
   }
 }
 
@@ -484,7 +489,7 @@ h6 {
 
   .maps iframe {
     width: 100%;
-    height: 450px;
+    height: 275px;
   }
 }
 
@@ -492,7 +497,7 @@ h6 {
 
   .maps iframe {
     width: 100%;
-    height: 500px;
+    height: 300px;
   }
 }
 

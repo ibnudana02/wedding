@@ -34,16 +34,16 @@
 
     <!-- ============== HALAMAN AWAL =============== -->
     <div class="thebegining">
-        <div class="content-thebegining">
+        <div class="content-thebegining wow zoomIn" data-wow-duration="2s" data-wow-delay="0.2s">
             <img src="<?= base_url() ?>assets/base/img/logo2.png" style="width:100px;height: 100px;"> <br>
         </div>
 
-        <div class="salam wow zoomIn" data-wow-duration="0" data-wow-delay="0s">
+        <div class="salam wow zoomIn" data-wow-duration="0" data-wow-delay="0.2s">
             <a style=" font-weight: bold;font-size: 30px;color: #2f3640;">Hello!</a><br>
             <a style="font-weight: normal;font-size:18px;"></a><br>
             <a style="font-weight: normal;font-size:18px;color: #2f3640;font-family: sans-serif;">You are invited to our wedding party!</a>
         </div>
-        <a style="font-weight: bold;font-size: 12px;color: #2f3640;position: absolute;bottom: 20px;right: 0;left: 0;">klik untuk membuka undangan</a>
+        <a style="font-weight: bold;font-size: 12px;color: #2f3640;position: absolute;bottom: 20px;right: 0;left: 0;" class="wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">klik untuk membuka undangan</a>
     </div>
 
     <div class="dekorasi-all">
@@ -62,11 +62,11 @@
                 <tbody>
                     <tr>
                         <th style="text-align: center;">
-                            <span class="the-wedding wow fadeIn" data-wow-duration="0" data-wow-delay="0.2s">- THE WEDDING OF -</span>
+                            <span class="the-wedding wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">- THE WEDDING OF -</span>
                         </th>
                     </tr>
                     <tr>
-                        <th style="position: relative;text-align: center;display:block;margin-top:50px" class="wow zoomIn" data-wow-delay="0.3s" data-wow-duration="3">
+                        <th style="position: relative;text-align: center;display:block;margin-top:50px" class="wow zoomIn" data-wow-delay="0.5s" data-wow-duration="1.8s">
                             <!-- image border cover -->
                             <img src="<?= base_url() ?>assets/themes/prettyflower/img/bg-flower.png" class="cover-border" /><br>
                             <!-- image border cover -->
@@ -75,11 +75,11 @@
                     </tr>
                     <tr>
                         <th style="text-align: center;margin-top:60px;margin-bottom:15px;display: block;">
-                            <span class="nama-mempelai wow zoomInUp" data-wow-duration="1s" data-wow-delay="1s">Ibnu & Vera</span>
+                            <span class="nama-mempelai wow zoomInUp" data-wow-duration="1s" data-wow-delay="0.8s">Ibnu & Vera</span>
                         </th>
                     </tr>
                     <tr>
-                        <th style=" text-align: center;" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <th style=" text-align: center;" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.9s">
                             <span class="tanggal-weddingnya"></span>
                         </th>
                     </tr>
@@ -88,21 +88,21 @@
         </div>
         <!-- ============== MEMPELAI =============== -->
         <div id="mempelai-konten" class="konten" style="display: none;">
-            <img src="<?= base_url() ?>assets/base/img/bismillah.png" class="mempelai-salam-pembuka" /><br>
-            <p class="mempelai-intermezzo wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Assalamu'alaikum warahmatullahi wabarakatuh
+            <img src="<?= base_url() ?>assets/base/img/bismillah.png" class="mempelai-salam-pembuka wow zoomIn" data-wow-delay="0.5s" data-wow-duration="0.8s" /><br>
+            <p class="mempelai-intermezzo wow zoomIn" data-wow-duration="1.5s" data-wow-delay="1s">Assalamu'alaikum warahmatullahi wabarakatuh
 
                 Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra-Putri kami :</p>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture10.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture10.png" class="mempelai-img wow zoomInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" />
 
-            <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Muhammad Ibnu Wardana, S.Kom</h1>
-            <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putra Amir dan Sri Wartini</p>
-            <h1 class="dengan wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">dengan</h1>
+            <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.5s" data-wow-delay="1.8s">Muhammad Ibnu Wardana, S.Kom</h1>
+            <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.5s" data-wow-delay="2.3s">Putra Amir dan Sri Wartini</p>
+            <h1 class="dengan wow zoomIn" data-wow-duration="1" data-wow-delay="2.7s">dengan</h1>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/vera.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/vera.png" class="mempelai-img wow zoomInLeft" data-wow-duration="1.5s" data-wow-delay="2.8s" />
 
-            <h1 class="mempelai-wanita-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Gusti Vera Hutriani, S.Pd</h1>
-            <p class="mempelai-wanita-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putri Hanafi dan Waslati (Alm)</p>
+            <h1 class="mempelai-wanita-nama wow zoomIn" data-wow-duration="0.5s" data-wow-delay="3.5s">Gusti Vera Hutriani, S.Pd</h1>
+            <p class="mempelai-wanita-ortu wow zoomIn" data-wow-duration="0.5s" data-wow-delay="4s">Putri Hanafi dan Waslati (Alm)</p>
 
         </div>
 
@@ -110,12 +110,12 @@
         <!-- ============== ACARA =============== -->
         <div id="acara-konten" style="display: none;" class="konten">
 
-            <div class="section-title wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">
+            <div class="section-title wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.1s">
                 <h2> Acara </h2>
             </div>
 
             <div class="acaranya">
-                <table class="tb-acara wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.5s">
+                <table class="tb-acara wow zoomIn" data-wow-duration="2.5s" data-wow-delay="0.5s">
                     <thead>
                         <th colspan="4" class="acara-title">
                             - AKAD NIKAH -
@@ -140,12 +140,12 @@
                             <th class="tb-ic-acara"><i class="mdi mdi-map-marker-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Tempat</th>
                             <th class="tb-anu-acara">:</th>
-                            <th class="tb-isi-acara">Kediaman Mempelai Wanita<br>Jl. Medan Merdeka Utara No.3 RT.02/RW.03. Gambir, Jakarta Pusat.</th>
+                            <th class="tb-isi-acara">Kediaman Mempelai Wanita<br>Jl. Pendalian RT. 2, RW. 1, Desa Pendalian, Kecamatan Pendalian - Rokan Hulu.</th>
                         </tr>
                     </tbody>
                 </table>
 
-                <table class="tb-acara wow zoomIn" data-wow-duration="0.3" data-wow-delay="1.2s">
+                <table class="tb-acara wow zoomIn" data-wow-duration="2.5s" data-wow-delay="2.2s">
                     <thead>
                         <th colspan="4" class="acara-title">
                             - WALIMATUL 'URS -
@@ -183,51 +183,66 @@
         <div id="ucapan-konten" style="display: none;" class="konten">
 
             <div class="col-12 ucapan-field">
-                <div class="section-title wow rubberBand" data-wow-duration="0.3" data-wow-delay="0.1">
+                <div class="section-title wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
                     <h2>Beri Ucapan</h2>
                 </div>
-                <!-- <form action="<?= base_url('welcome/postPesan') ?>" method="post"> -->
                 <div class="row">
-                    <div class="col-12 wow slideInLeft" data-wow-duration="0.5" data-wow-delay="0.5">
+                    <div class="col-12 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.7s">
                         <div class="form-group">
                             <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
                         </div>
                     </div>
-                    <div class="col-12 wow slideInRight" data-wow-duration="1" data-wow-delay="0.5">
+                    <div class="col-12 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
                         <div class="form-group">
                             <textarea id="komentar" class="form-control" name="pesan" placeholder="Pesan anda.." rows="3" required></textarea>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">
                         <button id="submitKomen" type="submit" class="btn btn-primary btn-block">Kirim</button>
                         <img src="<?= base_url() ?>assets/base/img/tail-spin.svg" height="30px" style="display:none;" id="loading_">
                     </div>
                 </div>
-                <!-- </form> -->
             </div>
             <div class="komen-netizen">
                 <div class="layout-komen">
                     <?php foreach ($data as $value) : ?>
-                        <div class='komen' style='display:block'>
+                        <div class='komen wow zoomIn' data-wow-duration="1s" data-wow-delay="1.2s" style='display:block'>
                             <div class='col-12 komen-nama'><?= ucwords($value->nama) ?></div>
                             <div class='col-12 komen-isi'><?= ucfirst($value->pesan) ?></div>
                         </div>
                     <?php endforeach; ?>
                 </div>
-                <a href="#" id="loadMore" class="btn btn-primary btn-block" role="button">Lebih Banyak.</a>
+                <a href="#" id="loadMore" class="btn btn-primary btn-block wow fadeInRight" data-wow-duration="1s" data-wow-delay="2.5s" role="button">Lebih Banyak.</a>
             </div>
-
-
         </div>
 
         <!-- ============== LOKASI =============== -->
         <div id="lokasi-konten" style="display: none;" class="konten">
 
-            <div class="section-title">
+            <div class="section-title wow zoomIn" data-wow-duration="0.9s" data-wow-delay="0.4s">
                 <h2>Denah Lokasi</h2>
             </div>
-            <div class="col-12 maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.705836876672!2d106.82198811476884!3d-6.170129095532956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d6aa94d477%3A0xebf3b9d252c86a26!2sMerdeka%20Palace!5e0!3m2!1sen!2sid!4v1595773648767!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+            <div class="col-12 ">
+                <div class="col-md-6">
+                    <div class="section-title wow zoomIn" data-wow-duration="0.9s" data-wow-delay="1s">
+                        <h2>Akad Nikah </h2>
+                    </div>
+                    <div class="wow fadeInLeft maps" data-wow-delay="1s" data-wow-duration="1.5s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.7753492209988!2d100.4848238291576!3d0.5199939999762934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMzEnMTIuMCJOIDEwMMKwMjknMDcuMyJF!5e1!3m2!1sen!2sid!4v1612422811182!5m2!1sen!2sid" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <a href="https://goo.gl/maps/BFyq9WsYBgvmpqUw9" target="_blank" class="btn btn-default btn-rute">Dapatkan Petunjuk Lokasi &nbsp;<i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-title wow zoomIn" data-wow-duration="0.9s" data-wow-delay="3s">
+                        <h2>Walimatul 'Urs</h2>
+                    </div>
+                    <div class="wow fadeInRight maps" data-wow-duration="1s" data-wow-delay="3.5s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.59703843064!2d101.1741058291416!3d1.2940339999410253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTcnMzguNSJOIDEwMcKwMTAnMjguOCJF!5e1!3m2!1sen!2sid!4v1612422960694!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <br><a href="https://goo.gl/maps/RRQ7eKxSdaJnsVbw6" target="_blank" class="btn btn-default btn-rute">Dapatkan Petunjuk Lokasi &nbsp;<i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 
@@ -287,26 +302,26 @@
     <img class="imgbawah-kiri" src="<?= base_url() ?>assets/themes/prettyflower/img/kiri-bawah.png">
 </div>
 
-<div class="dekorasi-sampul dekorasi-sampul-bawah">
+<div class="dekorasi-sampul dekorasi-sampul-bawah"></div>
 
-    <script>
-        var base_url = '<?= base_url('welcome') ?>';
-        var tanggal_akad = '2021/02/19';
-        var tanggal_resepsi = '2021/02/27';
-    </script>
-    <!-- JS AREA -->
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
-    <script src="<?= base_url() ?>assets/themes/prettyflower/js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-        $(document).ready(function() {
-            $('#nama').val('');
-            $('#komentar').val('');
-        })
-    </script>
+<script>
+    var base_url = '<?= base_url('welcome') ?>';
+    var tanggal_akad = '2021/02/19';
+    var tanggal_resepsi = '2021/02/27';
+</script>
+<!-- JS AREA -->
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/script.js"></script>
+<script src="<?= base_url() ?>assets/themes/prettyflower/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+    $(document).ready(function() {
+        $('#nama').val('');
+        $('#komentar').val('');
+    })
+</script>
 
 </html>
