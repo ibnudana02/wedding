@@ -183,14 +183,14 @@
             url: base_url + '/postPesan',
             method: "POST",
             data: {
-                nama: nama,
-                pesan: komentar
+                nama: nama.trim(),
+                pesan: komentar.trim()
             },
             async: true,
             dataType: 'JSON',
             success: function (hasil) {
-                console.log(JSON.stringify(hasil.data));
                 var json = hasil;
+                console.log(json);
                 var status = json.status;
                 var nama = json.nama;
                 var komentar = json.pesan;

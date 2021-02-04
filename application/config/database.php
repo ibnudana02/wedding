@@ -74,12 +74,14 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'sqlite:application/database/data.db',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'pdo',
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	// 'username' => 'ibnp3582_admin',
+	'username' => 'root',
+	// 'password' => 'Nqw7uk@Td[uo',
+	'password' => 'smd',
+	'database' => 'ibnp3582_ucapan',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
