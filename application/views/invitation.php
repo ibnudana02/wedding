@@ -14,6 +14,7 @@
     <meta property="og:title" content="Ibnu & Vera">
     <meta property="og:description" content="Hai! Kamu Di Undang..">
     <meta property="og:url" content="<?= base_url() ?>">
+    <meta property="og:image" content="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/ibnu.jpg">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <meta property="og:type" content="website" />
@@ -53,11 +54,8 @@
     </div>
 
     <div id="konten" style="z-index: 1;">
-
-
         <!-- ============== MUSIK =============== -->
         <audio loop src="<?= base_url() ?>assets/audio/audio.mp3" id="audio"></audio>
-
         <!-- ============== SAMPUL =============== -->
         <div id="sampul-konten" class="konten">
             <table style="width: 100%;margin-top:-50px">
@@ -68,30 +66,26 @@
                         </th>
                     </tr>
                     <tr>
-                        <th style="position: relative;text-align: center;display:block;margin-top:50px">
-
-
+                        <th style="position: relative;text-align: center;display:block;margin-top:50px" class="wow zoomIn" data-wow-delay="0.3s" data-wow-duration="3">
                             <!-- image border cover -->
                             <img src="<?= base_url() ?>assets/themes/prettyflower/img/bg-flower.png" class="cover-border" /><br>
                             <!-- image border cover -->
-
-                            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/kita.png" class="cover-foto" />
+                            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture12.png" class="cover-foto" />
                         </th>
                     </tr>
                     <tr>
                         <th style="text-align: center;margin-top:60px;margin-bottom:15px;display: block;">
-                            <span class="nama-mempelai wow zoomInUp" data-wow-duration="0.3" data-wow-delay="0.6s">Ibnu & Vera</span>
+                            <span class="nama-mempelai wow zoomInUp" data-wow-duration="1s" data-wow-delay="1s">Ibnu & Vera</span>
                         </th>
                     </tr>
                     <tr>
-                        <th style=" text-align: center;" class="wow bounce" data-wow-duration="0.1" data-wow-delay="1s">
+                        <th style=" text-align: center;" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
                             <span class="tanggal-weddingnya"></span>
                         </th>
                     </tr>
                 </tbody>
             </table>
         </div>
-
         <!-- ============== MEMPELAI =============== -->
         <div id="mempelai-konten" class="konten" style="display: none;">
             <img src="<?= base_url() ?>assets/base/img/bismillah.png" class="mempelai-salam-pembuka" /><br>
@@ -99,13 +93,13 @@
 
                 Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra-Putri kami :</p>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/ibnu.jpg" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture10.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
 
             <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Muhammad Ibnu Wardana, S.Kom</h1>
             <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putra Amir dan Sri Wartini</p>
             <h1 class="dengan wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">dengan</h1>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/bride.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
+            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/vera.png" class="mempelai-img wow slideInLeft" data-wow-duration="0.3" data-wow-delay="0.1s" />
 
             <h1 class="mempelai-wanita-nama wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Gusti Vera Hutriani, S.Pd</h1>
             <p class="mempelai-wanita-ortu wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">Putri Hanafi dan Waslati (Alm)</p>
@@ -116,12 +110,12 @@
         <!-- ============== ACARA =============== -->
         <div id="acara-konten" style="display: none;" class="konten">
 
-            <div class="section-title">
+            <div class="section-title wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.1s">
                 <h2> Acara </h2>
             </div>
 
             <div class="acaranya">
-                <table class="tb-acara">
+                <table class="tb-acara wow zoomIn" data-wow-duration="0.3" data-wow-delay="0.5s">
                     <thead>
                         <th colspan="4" class="acara-title">
                             - AKAD NIKAH -
@@ -148,12 +142,10 @@
                             <th class="tb-anu-acara">:</th>
                             <th class="tb-isi-acara">Kediaman Mempelai Wanita<br>Jl. Medan Merdeka Utara No.3 RT.02/RW.03. Gambir, Jakarta Pusat.</th>
                         </tr>
-
-
                     </tbody>
                 </table>
 
-                <table class="tb-acara">
+                <table class="tb-acara wow zoomIn" data-wow-duration="0.3" data-wow-delay="1.2s">
                     <thead>
                         <th colspan="4" class="acara-title">
                             - WALIMATUL 'URS -
@@ -191,17 +183,17 @@
         <div id="ucapan-konten" style="display: none;" class="konten">
 
             <div class="col-12 ucapan-field">
-                <div class="section-title">
+                <div class="section-title wow rubberBand" data-wow-duration="0.3" data-wow-delay="0.1">
                     <h2>Beri Ucapan</h2>
                 </div>
                 <!-- <form action="<?= base_url('welcome/postPesan') ?>" method="post"> -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 wow slideInLeft" data-wow-duration="0.5" data-wow-delay="0.5">
                         <div class="form-group">
                             <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 wow slideInRight" data-wow-duration="1" data-wow-delay="0.5">
                         <div class="form-group">
                             <textarea id="komentar" class="form-control" name="pesan" placeholder="Pesan anda.." rows="3" required></textarea>
                         </div>
