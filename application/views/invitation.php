@@ -93,13 +93,13 @@
 
                 Dengan memohon rahmat dan ridho Allah SWT, Kami akan menyelenggarakan resepsi pernikahan Putra-Putri kami :</p>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/Picture10.png" class="mempelai-img wow zoomInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" />
+            <img src="<?= base_url() ?>assets/img/ibnu.png" class="mempelai-img wow zoomInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" />
 
             <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.5s" data-wow-delay="1.8s">Muhammad Ibnu Wardana, S.Kom</h1>
             <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.5s" data-wow-delay="2.3s">Putra Amir dan Sri Wartini</p>
             <h1 class="dengan wow zoomIn" data-wow-duration="1" data-wow-delay="2.7s">dengan</h1>
 
-            <img src="<?= base_url() ?>assets/users/mIjh78y8ge13b89d99c1a29132e57d2ca/vera.png" class="mempelai-img wow zoomInLeft" data-wow-duration="1.5s" data-wow-delay="2.8s" />
+            <img src="<?= base_url() ?>assets/img/vera.png" class="mempelai-img wow zoomInLeft" data-wow-duration="1.5s" data-wow-delay="2.8s" />
 
             <h1 class="mempelai-wanita-nama wow zoomIn" data-wow-duration="0.5s" data-wow-delay="3.5s">Gusti Vera Hutriani, S.Pd</h1>
             <p class="mempelai-wanita-ortu wow zoomIn" data-wow-duration="0.5s" data-wow-delay="4s">Putri Hanafi dan Waslati (Alm)</p>
@@ -133,7 +133,7 @@
                             <th class="tb-ic-acara"><i class="mdi mdi-clock-time-eight-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Jam</th>
                             <th class="tb-anu-acara">:</th>
-                            <th class="tb-isi-acara">09.00 Pagi</th>
+                            <th class="tb-isi-acara">09.00 Pagi - Selesai</th>
                         </tr>
 
                         <tr>
@@ -163,7 +163,7 @@
                             <th class="tb-ic-acara"><i class="mdi mdi-clock-time-eight-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Jam</th>
                             <th class="tb-anu-acara">:</th>
-                            <th class="tb-isi-acara">10.00 Pagi</th>
+                            <th class="tb-isi-acara">10.00 Pagi - Selesai</th>
                         </tr>
 
                         <tr>
