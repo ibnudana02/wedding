@@ -55,7 +55,7 @@
 
     <div id="konten" style="z-index: 1;">
         <!-- ============== MUSIK =============== -->
-        <audio loop src="<?= base_url() ?>assets/audio/audio.mp3" id="audio"></audio>
+        <audio loop src="<?= base_url() ?>assets/audio/sepertiga_malam.mp3" id="audio"></audio>
         <!-- ============== SAMPUL =============== -->
         <div id="sampul-konten" class="konten">
             <table style="width: 100%;margin-top:-50px">
