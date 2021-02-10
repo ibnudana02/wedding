@@ -79,8 +79,13 @@
                         </th>
                     </tr>
                     <tr>
-                        <th style=" text-align: center;" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                        <th style="text-align: center;" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.9s">
                             <span class="tanggal-weddingnya"></span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center; padding-top:15rem; padding-right:3rem;padding-left:3rem;" class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.5s">
+                            <span>~ Aku akan memohon pada Allah SWT untuk berjumpa denganmu dua kali, sekali di dunia ini dan sekali lagi di surga ~</span>
                         </th>
                     </tr>
                 </tbody>
@@ -97,7 +102,7 @@
 
             <h1 class="mempelai-pria-nama wow zoomIn" data-wow-duration="0.5s" data-wow-delay="1.8s">Muhammad Ibnu Wardana, S.Kom</h1>
             <p class="mempelai-pria-ortu wow zoomIn" data-wow-duration="0.5s" data-wow-delay="2.3s">Putra Amir dan Sri Wartini</p>
-            <h1 class="dengan wow zoomIn" data-wow-duration="1" data-wow-delay="2.7s">dengan</h1>
+            <h1 class="dengan wow zoomIn" data-wow-duration="1s" data-wow-delay="2.7s">dengan</h1>
 
             <img src="<?= base_url() ?>assets/img/vera.png" class="mempelai-img wow zoomInLeft" data-wow-duration="1.5s" data-wow-delay="2.8s" />
 
