@@ -192,6 +192,7 @@
                     <h2>Beri Ucapan</h2>
                 </div>
                 <div class="row">
+                    <!-- <form id="ucapan"> -->
                     <div class="col-12 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.7s">
                         <div class="form-group">
                             <input id="nama" type="text" name="nama" class="form-control mt-2" placeholder="Nama Anda" value="" required>
@@ -204,8 +205,9 @@
                     </div>
                     <div class="col-12 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">
                         <button id="submitKomen" type="submit" class="btn btn-primary btn-block">Kirim</button>
-                        <img src="<?= base_url() ?>assets/base/img/tail-spin.svg" height="30px" style="display:none;" id="loading_">
+                        <img src="<?= base_url() ?>assets/base/img/Spinner.svg" height="30px" style="display:none;" id="loading_">
                     </div>
+                    <!-- </form> -->
                 </div>
             </div>
             <div class="komen-netizen">
@@ -218,6 +220,8 @@
                     <?php endforeach; ?>
                 </div>
                 <a href="#" id="loadMore" class="btn btn-primary btn-block wow fadeInRight" data-wow-duration="1s" data-wow-delay="2.5s" role="button">Lebih Banyak.</a>
+                <input type="hidden" name="limit" id="limit" value="5" />
+                <input type="hidden" name="offset" id="offset" value="5" />
             </div>
         </div>
 
@@ -316,6 +320,7 @@
 </script>
 <!-- JS AREA -->
 <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery.min.js"></script>
+<script src="<?= base_url() ?>assets/base/js/validate.min.js"></script>
 <script src="<?= base_url() ?>assets/themes/prettyflower/js/moment-with-locales.js"></script>
 <script src="<?= base_url() ?>assets/themes/prettyflower/js/bootstrap.min.js"></script>
 <script src="<?= base_url() ?>assets/themes/prettyflower/js/jquery-plugin-collection.js"></script>

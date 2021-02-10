@@ -22,4 +22,17 @@ class Welcome extends CI_Controller
 			echo json_encode($arr);
 		}
 	}
+	public function loadmore()
+	{
+		$limit = $this->input->get('limit');
+		$offset = $this->input->get('offset');
+		// $offset = 6;
+		// $limit = 5;
+		// $this->load->model('yourmodel');
+		$result  = $this->pesan->getData($offset, $limit)->result();
+		$data['view'] = $result;
+		$data['offset'] = $offset + 10;
+		$data['limit'] = $limit;
+		echo json_encode($data);
+	}
 }

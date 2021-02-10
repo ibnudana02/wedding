@@ -174,11 +174,13 @@
     ======================= */
     $('#submitKomen').on('click', function (event) {
 
-        $('#loading_').css('display', 'inline');
-        $('#submitKomen').css('display', 'none');
-
         var nama = $('#nama').val();
         var komentar = $('#komentar').val();
+
+        if (nama != null && komentar != null) {
+            $('#loading_').hide();
+            $('#submitKomen').show();
+        }
         $.ajax({
             url: base_url + '/postPesan',
             method: "POST",
@@ -188,9 +190,21 @@
             },
             async: true,
             dataType: 'JSON',
+            beforeSend: function () {
+                // Show image container
+                // $("#loading_").show();
+                // $('#submitKomen').hide();
+                if (nama != null && komentar != null) {
+                    $('#loading_').show();
+                    $('#submitKomen').show();
+                } else {
+                    $('#loading_').show();
+                    $('#submitKomen').hide();
+                }
+            },
             success: function (hasil) {
                 var json = hasil;
-                console.log(json);
+                // console.log(json);
                 var status = json.status;
                 var nama = json.nama;
                 var komentar = json.pesan;
@@ -205,15 +219,41 @@
                         scrollTop: $(document).height()
                     }, 1000);
                     $("#loadMore").fadeOut('slow');
-
-                    $('#loading_').css('display', 'none');
+                    $('#loading_').hide();
+                    // $('#loading_').css('display', 'none');
                     $('#submitKomen').css('display', 'block');
                     // $('#submitKomen').prop('disabled', true);
                 }
-
+            },
+            complete: function () {
+                $('#loading_').hide();
             }
         });
+    });
 
+    // Load More
+    $('#loadMore').on('click', function (event) {
+        $.ajax({
+            url: base_url + '/loadmore',
+            data: {
+                offset: $('#offset').val(),
+                limit: $('#limit').val()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var net = data.view;
+                console.log(net);
+                var html = '';
+                var i;
+                for (i = 0; i < net.length; i++) {
+                    html += "<div class='komen' style='display:block'><div class='col-12 komen-nama'>" + net[i].nama + "</div><div class='col-12 komen-isi'>" + net[i].pesan + "</div></div>";
+                    // console.log(html);
+                }
+                $('.layout-komen').append(html)
+                $('#offset').val(data.offset)
+                $('#limit').val(data.limit)
+            }
+        });
     });
 
 })(window.jQuery);
