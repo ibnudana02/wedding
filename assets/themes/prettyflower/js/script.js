@@ -145,6 +145,7 @@
         $(".komen:hidden").slice(0, 4).slideDown();
         if ($(".komen:hidden").length == 0) {
             $("#loadMore").fadeOut('slow');
+            $("#loadMore").fadeIn('slow');
         }
         $('html,body').animate({
             scrollTop: $(this).offset().top
@@ -249,9 +250,13 @@
                     html += "<div class='komen' style='display:block'><div class='col-12 komen-nama'>" + net[i].nama + "</div><div class='col-12 komen-isi'>" + net[i].pesan + "</div></div>";
                     // console.log(html);
                 }
-                $('.layout-komen').append(html)
-                $('#offset').val(data.offset)
-                $('#limit').val(data.limit)
+                $('.layout-komen').append(html);
+                $('#offset').val(data.offset);
+                $('#limit').val(data.limit);
+                $('#loadMore').show();
+            },
+            complete: function () {
+                $('#loadMore').css("display", "block");
             }
         });
     });
