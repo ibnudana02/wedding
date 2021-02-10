@@ -163,7 +163,7 @@
                             <th class="tb-ic-acara"><i class="mdi mdi-clock-time-eight-outline icon-acara"></th>
                             <th class="tb-ket-acara"> Jam</th>
                             <th class="tb-anu-acara">:</th>
-                            <th class="tb-isi-acara">10.00 Pagi - Selesai</th>
+                            <th class="tb-isi-acara">11.00 Pagi - Selesai</th>
                         </tr>
 
                         <tr>
